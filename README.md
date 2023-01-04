@@ -1,0 +1,1 @@
+# 2nd_Smallest_Number-in-the-array
