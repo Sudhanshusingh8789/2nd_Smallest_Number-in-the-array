@@ -1,0 +1,14 @@
+ #include<iostream>
+ #include<algorithm>
+ using namespace std;
+ 
+ int getSmallest(int arr[], int n){
+     
+     sort(arr,arr+n);
+     return arr[0];
+ }
+ int main(){
+     int arr[] = {56, 78, 33, 678, 89};
+     int len = sizeof(arr)/sizeof(arr[0]);
+     cout << "Second Smallest number " << getSmallest(arr,len);
+ }
